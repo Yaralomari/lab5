@@ -1,0 +1,26 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{% block title %}Library{% endblock %}</title>
+
+  <!-- favicon -->
+  <link rel="icon" type="image/png" href="{% static 'qu-icon.png' %}">
+
+  <!-- External CSS -->
+  <link rel="stylesheet" href="{% static 'styles.css' %}">
+
+  {% block extra_head %}{% endblock %}
+</head>
+
+<body>
+
+  {% include "bookmodule/includes/header.html" %}
+
+  {% block content %}{% endblock %}
+
+  {% include "bookmodule/includes/footer.html" %}
+
+</body>
+</html>

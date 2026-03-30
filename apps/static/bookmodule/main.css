@@ -1,0 +1,131 @@
+/* =========================
+   Task 1 (Links)
+   ========================= */
+#links-wrapper{
+  margin: 0;
+  padding: 0;
+}
+
+.bar{
+  padding: 18px;
+  text-align: center;
+}
+
+.bar-1{ background: #86c69a; }
+.bar-2{ background: #3d3d3d; }
+.bar-3{ background: #000000; }
+
+.qu-link{
+  display: block;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.bar-1 .qu-link{ color: red; }
+.bar-2 .qu-link{ color: gold; }
+.bar-3 .qu-link{ color: white; }
+
+.qu-link:visited{ color: purple; }
+.qu-link:hover{ color: red; }
+.qu-link:active{ color: orange; }
+
+
+/* =========================
+   Task 2 (Formatting)
+   ========================= */
+.format-title{
+  background-color: #e5e2c8;
+  color: green;
+  padding: 10px;
+}
+
+
+/* =========================
+   Task 3 (Listing)
+   ========================= */
+.listing-title{
+  background-color: #5f9ea0;
+  color: white;
+  padding: 10px;
+}
+
+
+/* 
+   Task 4 (Tables)
+    */
+
+/* ---- Table 1 ---- */
+.t1-wrap{
+  width: 280px;                 
+  margin: 0 auto 18px auto;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.t1-caption{
+  font-weight: 700;
+  font-size: 14px;              
+  line-height: 1.15;
+  margin: 0 0 6px 0;
+}
+
+.t1{
+  margin: 0 auto;
+  border-collapse: collapse;
+  font-size: 13px;
+}
+
+.t1 th, .t1 td{
+  border: 2px solid #555;
+  padding: 3px 8px;
+}
+
+
+/* ---- Table 2 Title ---- */
+.t2-title{
+  text-align: center;
+  font-size: 12px;
+  margin: 6px 0 6px 0;          
+  font-family: "Times New Roman", Times, serif;
+}
+
+
+/* ---- Table 2 ---- */
+.t2{
+  width: 700px;               
+  margin: 0 auto;
+  border-collapse: collapse;
+  font-size: 12px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.t2 th, .t2 td{
+  border: 1px solid #666;
+  padding: 3px 6px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.t2-head{
+  font-weight: 700;
+  height: 70px;               
+}
+
+.img-cell{
+  width: 230px;
+  padding: 8px;
+}
+
+.camel-img{
+  width: 200px;
+  height: 140px;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+}
+
+.animal{
+  font-weight: 700;
+  width: 220px;
+  text-align: center;
+}

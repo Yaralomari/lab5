@@ -41,3 +41,12 @@ def view_one_book(request, bookId):
 
 def aboutus(request):
     return render(request, "bookmodule/aboutus.html")
+
+def html5_links(request):
+    return render(request, "bookmodule/html5/links.html")
+def html5_formatting(request):
+    return render(request, "bookmodule/html5/formatting.html")
+def html5_listing(request):
+    return render(request, "bookmodule/html5/listing.html")
+def html5_tables(request):
+    return render(request, "bookmodule/html5/tables.html")
